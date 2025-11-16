@@ -241,7 +241,20 @@ Technical specifications and documentation - See individual file headers.
 
 This repository has been consolidated from multiple related repositories:
 
-- **Portfolio**: Main AI Governance portfolio content
-- **implementations/**: Reference implementations from UNITARES-HCK-Implementation
-- **patents/**: Patents and technical specifications from AI-Governance-Patents
+```
+AI-Governance-Portfolio/
+├── README.md                          # This file
+├── profile/                           # Profile content (from KennyWang)
+│   └── README.md                      # Profile README
+├── ARCHITECTURE.md                    # Architecture documentation
+└── APPLICATIONS.md                    # Applications documentation
+```
+
+### Migration History
+
+This repository consolidates:
+- ✅ **KennyWang** → `/profile` - Profile and personal information
+- ✅ **AI-Governance-Portfolio** - Original portfolio content
+
+**Note:** All private implementations have been moved to the consolidated [Projects](https://github.com/Lucoryn-COREY/Projects) repository.
 
