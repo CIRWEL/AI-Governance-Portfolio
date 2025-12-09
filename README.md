@@ -2,23 +2,23 @@
 
 **Building Trustworthy, Explainable, and Compliant AI Systems**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Lucoryn--COREY-blue)](https://github.com/Lucoryn-COREY)
+[![GitHub](https://img.shields.io/badge/GitHub-CIRWEL-blue)](https://github.com/CIRWEL)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-green)]()
 
 ---
 
 ## 👋 About
 
-I'm an **AI Governance Systems Architect** who designs and builds the technical infrastructure that makes AI systems trustworthy, explainable, and compliant by design. I translate AI ethics and governance requirements into implementable technical systems.
+This portfolio showcases **AI Governance Systems Architecture** work focused on designing and building the technical infrastructure that makes AI systems trustworthy, explainable, and compliant by design. The work translates AI ethics and governance requirements into implementable technical systems.
 
-**What I Do:**
-- Design complete AI governance architectures
-- Create formal technical specifications (algorithms, data structures, interfaces)
-- Build mathematical frameworks for system reliability
-- Develop systems for regulated industries (healthcare, finance, defense, legal)
+**What This Portfolio Covers:**
+- Design of complete AI governance architectures
+- Formal technical specifications (algorithms, data structures, interfaces)
+- Mathematical frameworks for system reliability
+- Systems for regulated industries (healthcare, finance, defense, legal)
 
 **What Makes This Different:**
-Most AI governance work is policy frameworks and guidelines. My work is **implementable technical systems** with formal specifications, mathematical foundations, and production-ready architecture.
+Most AI governance work is policy frameworks and guidelines. This work focuses on **implementable technical systems** with formal specifications, mathematical foundations, and production-ready architecture.
 
 ---
 
@@ -131,7 +131,7 @@ Most AI governance work is policy frameworks and guidelines. My work is **implem
 
 ## 🏗️ Technical Depth
 
-**What I Create:**
+**What This Portfolio Includes:**
 - ✅ **Formal Algorithm Specifications** - Complete algorithms with complexity analysis
 - ✅ **Data Structure Definitions** - Complete schemas with constraints and invariants
 - ✅ **Interface Specifications** - Preconditions, postconditions, error handling
@@ -190,39 +190,10 @@ Most AI governance work is policy frameworks and guidelines. My work is **implem
 
 ---
 
-## 💼 What I'm Looking For
-
-**Roles:**
-- AI Governance Systems Architect
-- AI Safety Engineer
-- Technical Lead - AI Ethics
-- Research Scientist - AI Governance
-- Systems Architect - Trustworthy AI
-
-**Industries:**
-- AI/ML companies building governance systems
-- Regulated industries (healthcare, finance, defense)
-- Research organizations
-- Government/defense contractors
-- Legal tech companies
-
----
-
 ## 🔗 Related Work
 
-- **[PSEUDOCODE](https://github.com/Lucoryn-COREY/PSEUDOCODE)** - Pseudocode implementations
-- **[UNITARES-HCK-Implementation](https://github.com/Lucoryn-COREY/UNITARES-HCK-Implementation)** - Reference implementations
-- **[Jestful-Voyager-Narrative-Reasoning](https://github.com/Lucoryn-COREY/Jestful-Voyager-Narrative-Reasoning)** - Narrative reasoning MVP
-
----
-
-## 📧 Contact
-
-**Kenny Wang**  
-AI Governance Systems Architect | Building Trustworthy AI Systems
-
-- **GitHub:** [@Lucoryn-COREY](https://github.com/Lucoryn-COREY)
-- **Portfolio:** [KennyWang Profile](https://github.com/Lucoryn-COREY/KennyWang)
+- **[UNITARES Governance Framework](https://github.com/CIRWEL/governance-mcp-v1)** - Production-ready governance system implementation
+- **[AI Governance Patents](https://github.com/CIRWEL/AI-Governance-Patents)** - Patent portfolio (private)
 
 ---
 
@@ -233,28 +204,20 @@ Technical specifications and documentation - See individual file headers.
 
 ---
 
-**Last Updated:** January 2025  
-**Status:** Active Development - Building Trustworthy AI Systems
-
-
 ## Repository Structure
 
-This repository has been consolidated from multiple related repositories:
+This repository contains:
 
 ```
 AI-Governance-Portfolio/
 ├── README.md                          # This file
-├── profile/                           # Profile content (from KennyWang)
+├── profile/                           # Profile content
 │   └── README.md                      # Profile README
 ├── ARCHITECTURE.md                    # Architecture documentation
 └── APPLICATIONS.md                    # Applications documentation
 ```
 
-### Migration History
+---
 
-This repository consolidates:
-- ✅ **KennyWang** → `/profile` - Profile and personal information
-- ✅ **AI-Governance-Portfolio** - Original portfolio content
-
-**Note:** All private implementations have been moved to the consolidated [Projects](https://github.com/Lucoryn-COREY/Projects) repository.
-
+**Last Updated:** December 2025  
+**Status:** Active Development - Building Trustworthy AI Systems
