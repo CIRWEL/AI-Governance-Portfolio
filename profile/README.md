@@ -1,21 +1,21 @@
-# Hi, I'm Kenny Wang 👋
+# AI Governance Systems Portfolio
 
-**AI Governance Systems Architect** | Building Trustworthy, Explainable, and Compliant AI Systems
+**Building Trustworthy, Explainable, and Compliant AI Systems**
 
 ---
 
-## About Me
+## About This Portfolio
 
-I design and build the technical infrastructure that makes AI systems trustworthy, explainable, and compliant by design. I translate AI ethics and governance requirements into implementable technical systems.
+This portfolio showcases work in designing and building the technical infrastructure that makes AI systems trustworthy, explainable, and compliant by design. The focus is on translating AI ethics and governance requirements into implementable technical systems.
 
-**What I Do:**
-- 🏗️ Design complete AI governance architectures
-- 📐 Create formal technical specifications (algorithms, data structures, interfaces)
-- 🔬 Build mathematical frameworks for system reliability
-- 🏥 Develop systems for regulated industries (healthcare, finance, defense, legal)
+**What This Portfolio Covers:**
+- 🏗️ Design of complete AI governance architectures
+- 📐 Formal technical specifications (algorithms, data structures, interfaces)
+- 🔬 Mathematical frameworks for system reliability
+- 🏥 Systems for regulated industries (healthcare, finance, defense, legal)
 
 **What Makes This Different:**
-Most AI governance work is policy frameworks and guidelines. My work is **implementable technical systems** with formal specifications, mathematical foundations, and production-ready architecture.
+Most AI governance work is policy frameworks and guidelines. This work focuses on **implementable technical systems** with formal specifications, mathematical foundations, and production-ready architecture.
 
 ---
 
@@ -34,27 +34,9 @@ Most AI governance work is policy frameworks and guidelines. My work is **implem
 
 ## 🔗 Portfolio & Work
 
-- **[AI Governance Portfolio](https://github.com/Lucoryn-COREY/AI-Governance-Portfolio)** - Public-facing portfolio
-- **[AI Governance Patents](https://github.com/Lucoryn-COREY/AI-Governance-Patents)** - Patent portfolio (private)
-- **[UNITARES-HCK Implementation](https://github.com/Lucoryn-COREY/UNITARES-HCK-Implementation)** - Reference implementations (private)
-
----
-
-## 💼 What I'm Looking For
-
-**Roles:**
-- AI Governance Systems Architect
-- AI Safety Engineer
-- Technical Lead - AI Ethics
-- Research Scientist - AI Governance
-- Systems Architect - Trustworthy AI
-
-**Industries:**
-- AI/ML companies building governance systems
-- Regulated industries (healthcare, finance, defense)
-- Research organizations
-- Government/defense contractors
-- Legal tech companies
+- **[AI Governance Portfolio](https://github.com/CIRWEL/AI-Governance-Portfolio)** - Public-facing portfolio
+- **[UNITARES Governance Framework](https://github.com/CIRWEL/governance-mcp-v1)** - Production-ready governance system
+- **[AI Governance Patents](https://github.com/CIRWEL/AI-Governance-Patents)** - Patent portfolio (private)
 
 ---
 
@@ -92,17 +74,10 @@ Most AI governance work is policy frameworks and guidelines. My work is **implem
 
 ## 🎓 Background
 
-My journey to AI governance has been an evolution rather than a pivot. After 25+ years as a professional violist, I developed precision, discipline, and collaborative skills that translate directly to technical systems architecture. My diverse experience across industries gave me systems thinking and the ability to translate abstract requirements into concrete implementations.
+This work represents an evolution in AI governance systems architecture, focusing on translating abstract governance requirements into concrete, implementable technical systems. The approach bridges AI ethics, technical systems design, and mathematical foundations to provide rigor and implementability.
 
 **Unique Value:**
-I bridge three worlds: I understand AI ethics and governance requirements, I can translate those into technical systems, and I have mathematical foundations (UNITARES/HCK) that provide rigor. Most ethicists can't build systems. Most engineers don't understand governance deeply. I do both.
-
----
-
-## 📧 Connect
-
-- **GitHub:** [@Lucoryn-COREY](https://github.com/Lucoryn-COREY)
-- **Portfolio:** [AI Governance Portfolio](https://github.com/Lucoryn-COREY/AI-Governance-Portfolio)
+This portfolio bridges three worlds: understanding AI ethics and governance requirements, translating those into technical systems, and providing mathematical foundations (UNITARES/HCK) that provide rigor. The focus is on systems that can be implemented, not just conceptualized.
 
 ---
 
@@ -117,4 +92,3 @@ I bridge three worlds: I understand AI ethics and governance requirements, I can
 ---
 
 **"Translating 'what should be' (AI ethics) into 'how to build it' (engineering)"**
-
