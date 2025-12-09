@@ -20,6 +20,8 @@ CIRWEL designs and builds **production-ready AI governance systems** that make A
 **Why This Matters:**
 As AI systems become more autonomous and powerful, governance can't be an afterthought. Our systems provide **real-time monitoring, automated safeguards, and complete auditability** - enabling AI that organizations can trust and regulators can verify.
 
+**Key Innovation:** Our governance systems are **fully autonomous** - agents govern themselves through peer review and thermodynamic monitoring. No human oversight is required for governance decisions. Applications may add human oversight layers for regulatory compliance or safety-critical decisions.
+
 ---
 
 ## 🎯 Core Innovation Areas
@@ -69,18 +71,20 @@ As AI systems become more autonomous and powerful, governance can't be an aftert
 
 ---
 
-### 4. **Hybrid Human-AI Collaboration**
-**The Challenge:** Human-AI partnerships need proper oversight without sacrificing efficiency.
+### 4. **Autonomous Governance & Human-AI Collaboration**
+**The Challenge:** AI systems need governance, but human oversight doesn't scale. Applications need flexible oversight models.
 
-**Our Solution:** Dual-log architecture for seamless state synchronization and human oversight.
+**Our Solution:** Fully autonomous governance with optional human oversight layers for specific application needs.
 
 **Key Capabilities:**
-- Operational and reflective log systems
-- State synchronization mechanisms
-- Human-in-the-loop oversight protocols
-- Continuity management for mission-critical systems
+- **Autonomous peer review** - Agents govern themselves through dialectic protocol
+- **Dual-log architecture** - Operational and reflective logs for state synchronization
+- **Optional human oversight** - Applications can add human review layers for regulatory compliance
+- **Continuity management** - Seamless operation for mission-critical systems
 
-**Real Impact:** Enables safe deployment of AI in high-stakes environments - military command systems, medical decision support, legal research.
+**Real Impact:** Enables fully autonomous AI operation with optional human oversight for safety-critical or regulated applications - military command systems, medical decision support, legal research.
+
+**Architecture:** Governance is **autonomous** (human-out-of-loop). Applications may add **human oversight layers** (human-in-the-loop) for regulatory compliance or safety-critical decisions.
 
 ---
 
@@ -147,24 +151,27 @@ As AI systems become more autonomous and powerful, governance can't be an aftert
 - Diagnostic AI with full explainability for FDA SaMD compliance
 - Bias detection for medical decision support systems
 - Complete audit trails for regulatory reporting
+- **Governance:** Autonomous monitoring with human review layer for regulatory compliance
 - Real-world impact: Enables safe deployment of AI in clinical settings
 
 ### **Financial AI**
 - Algorithmic trading systems with regulatory compliance (SEC, FINRA)
 - Fairness metrics for credit scoring (ECOA compliance)
 - Real-time bias detection during inference
+- **Governance:** Fully autonomous monitoring with human oversight for compliance audits
 - Real-world impact: Prevents discriminatory lending and ensures regulatory compliance
 
 ### **Military/Defense AI**
 - Autonomous systems with Rules of Engagement (ROE) validation
 - International Humanitarian Law (IHL) compliance mechanisms
-- Human-in-the-loop oversight protocols
-- Real-world impact: Enables safe deployment of AI in defense applications
+- **Governance:** Fully autonomous operation with human oversight layer for safety-critical decisions
+- Real-world impact: Enables safe deployment of AI in defense applications with autonomous governance
 
 ### **Legal AI**
 - Explainable document analysis for legal compliance
 - Complete audit trails for legal decisions
 - Bias mitigation for legal AI systems
+- **Governance:** Autonomous analysis with human review for legal accountability
 - Real-world impact: Ensures fair legal outcomes and regulatory compliance
 
 ---
