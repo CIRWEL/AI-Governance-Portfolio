@@ -154,26 +154,25 @@ Agents can persist discoveries, insights, and notes to a shared knowledge graph:
 
 ## Differentiation
 
-### What UNITARES Is NOT
+### Where UNITARES Fits
 
-| Approach | When It Happens | What It Does |
-|----------|-----------------|--------------|
-| **Fine-tuning** | Training | Teaches model new behaviors |
-| **RLHF** | Training | Shapes behavior via rewards |
-| **OpenEnv** | Training | Provides RL environments |
-| **Guardrails** | Runtime (external) | Blocks bad outputs |
-| **Evals** | Periodic | Measures capability |
-
-### What UNITARES IS
-
-| UNITARES | Runtime (internal) | Agent senses its own state |
-|----------|-------------------|---------------------------|
+| Layer | When | Examples | What It Does |
+|-------|------|----------|--------------|
+| **Training** | Before deployment | RLHF, fine-tuning, RL environments | Shapes model behavior |
+| **Guardrails** | Runtime (external) | Content filters, output constraints | Blocks bad outputs |
+| **Evaluation** | Periodic | Benchmarks, red-teaming | Measures capability |
+| **UNITARES** | Runtime (internal) | Governance server | Agent senses own state |
 
 **Key distinction:** UNITARES doesn't train agents or filter outputs. It gives agents visibility into their own operational health, at runtime, continuously.
 
-An agent trained with OpenEnv could use UNITARES governance. They're complementary:
-- OpenEnv: "Learn to play poker"
-- UNITARES: "Notice when you're tilting"
+### Complementary, Not Competing
+
+UNITARES works with any training approach. An agent trained via RLHF, fine-tuning, or RL environments can use UNITARES governance after deployment. They solve different problems:
+
+- **Training tools:** "Learn to do this task well"
+- **UNITARES:** "Notice when you're degrading while doing it"
+
+This is why we say UNITARES occupies a different *layer* - it's orthogonal to how agents are trained.
 
 ---
 
