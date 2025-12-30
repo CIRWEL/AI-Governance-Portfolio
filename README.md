@@ -1,215 +1,81 @@
-# AI Governance Systems Portfolio
+# UNITARES
 
-**Building Trustworthy, Explainable, and Compliant AI Systems**
-
-[![GitHub](https://img.shields.io/badge/GitHub-CIRWEL-blue)](https://github.com/CIRWEL)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-green)]()
+**Runtime Governance for Autonomous AI Agents**
 
 ---
 
-## 👋 About
+## What is this?
 
-CIRWEL designs and builds **production-ready AI governance systems** that make AI trustworthy, explainable, and compliant by design. We translate governance requirements into implementable technical systems with mathematical rigor and formal specifications.
+AI safety focuses heavily on training (RLHF, constitutional AI) and guardrails (content filters). But once an agent is deployed and running autonomously for hours, **no one monitors what's happening inside**.
 
-**Our Approach:**
-- **Complete architectures** - End-to-end governance systems, not just frameworks
-- **Formal specifications** - Algorithms, data structures, and interfaces with proofs
-- **Mathematical foundations** - Control-theoretic frameworks for system reliability
-- **Regulated industry focus** - Healthcare, finance, defense, and legal applications
+UNITARES fills this gap: **runtime self-awareness for AI agents**.
 
-**Why This Matters:**
-As AI systems become more autonomous and powerful, governance can't be an afterthought. Our systems provide **real-time monitoring, automated safeguards, and complete auditability** - enabling AI that organizations can trust and regulators can verify.
-
-**Key Innovation:** Our governance systems are **fully autonomous** - agents govern themselves through peer review and thermodynamic monitoring. No human oversight is required for governance decisions. Applications may add human oversight layers for regulatory compliance or safety-critical decisions.
+Agents check in with UNITARES periodically and receive feedback about their own operational state—coherence, entropy, energy, risk. Like proprioception in humans: you don't avoid falling because falling is punished; you avoid it because you can feel yourself tilting.
 
 ---
 
-## 🎯 Core Innovation Areas
+## How it works
 
-### 1. **Drift Detection & System Reliability**
-**The Challenge:** AI systems drift into biased or harmful behavior over time, often undetected until failures occur.
+```python
+# Agent checks in
+response = process_agent_update(
+    response_text="Just completed codebase analysis",
+    confidence=0.8,
+    complexity=0.6
+)
 
-**Our Solution:** Automated drift detection with statistical rigor and intelligent reset mechanisms.
-
-**Key Capabilities:**
-- Information-theoretic drift metrics (KL divergence, entropy tracking)
-- Temporal threshold monitoring with adaptive baselines
-- State-preserving reset mechanisms
-- Complete audit trails for compliance
-
-**Real Impact:** Prevents costly failures by catching drift early - critical for healthcare AI, financial systems, and autonomous vehicles.
-
----
-
-### 2. **Explainable AI & Provenance Tracing**
-**The Challenge:** "Black box" AI decisions undermine trust and regulatory compliance.
-
-**Our Solution:** Complete provenance tracing from every decision back to its source assumptions.
-
-**Key Capabilities:**
-- Recursive assumption tracing algorithms
-- Directed acyclic graph (DAG) data structures for decision trees
-- Temporal confidence tracking
-- Full audit trails for regulatory reporting
-
-**Real Impact:** Enables regulatory compliance (FDA SaMD, SEC requirements) and builds user trust through transparency.
-
----
-
-### 3. **Bias Detection & Mitigation**
-**The Challenge:** AI systems perpetuate and amplify bias, leading to unfair outcomes and legal risk.
-
-**Our Solution:** Real-time bias detection with adaptive mitigation strategies.
-
-**Key Capabilities:**
-- Multiple fairness metrics (demographic parity, equalized odds, calibration)
-- Adaptive re-weighting algorithms
-- Real-time bias detection during inference
-- Compliance monitoring for regulatory frameworks (ECOA, fair lending)
-
-**Real Impact:** Prevents discriminatory outcomes before they occur - essential for credit scoring, hiring systems, and medical triage.
-
----
-
-### 4. **Autonomous Governance & Human-AI Collaboration**
-**The Challenge:** AI systems need governance, but human oversight doesn't scale. Applications need flexible oversight models.
-
-**Our Solution:** Fully autonomous governance with optional human oversight layers for specific application needs.
-
-**Key Capabilities:**
-- **Autonomous peer review** - Agents govern themselves through dialectic protocol
-- **Dual-log architecture** - Operational and reflective logs for state synchronization
-- **Optional human oversight** - Applications can add human review layers for regulatory compliance
-- **Continuity management** - Seamless operation for mission-critical systems
-
-**Real Impact:** Enables fully autonomous AI operation with optional human oversight for safety-critical or regulated applications - military command systems, medical decision support, legal research.
-
-**Architecture:** Governance is **autonomous** (human-out-of-loop). Applications may add **human oversight layers** (human-in-the-loop) for regulatory compliance or safety-critical decisions.
-
----
-
-### 5. **Multimodal AI Validation**
-**The Challenge:** Validating AI outputs across text, images, audio, and mathematical expressions requires unified approaches.
-
-**Our Solution:** Unified symbolic representation with cross-modal integrity validation.
-
-**Key Capabilities:**
-- Multimodal Symbol Graph (MSG) representation
-- Cross-modal validation algorithms
-- Integrity index computation
-- Cryptographic tamper evidence
-
-**Real Impact:** Ensures AI outputs match human intent across all modalities - critical for content generation, medical imaging, and scientific computing.
-
----
-
-### 6. **Mathematical Foundations**
-**The Innovation:** Control-theoretic frameworks that provide mathematical rigor for AI governance.
-
-**Key Frameworks:**
-- **UNITARES** - Unified framework for computational capacity and information integrity
-- **HCK** - Hybrid Continuity Kernel for adaptive control
-- **CIRS** - Continuity Interoperability Resonance System
-
-**Real Impact:** Provides the mathematical foundation for all governance systems - ensuring stability, reliability, and provable guarantees.
-
----
-
-## 📊 Portfolio Metrics
-
-- **9+ Patent-Pending Innovations** covering the complete AI governance stack
-- **8 Unified Technical Specifications** for shared components
-- **18+ Algorithms** with formal specifications and complexity analysis
-- **9+ Data Structures** with complete schemas and invariants
-- **19+ Interface Specifications** with preconditions, postconditions, and error handling
-- **4+ Regulated Industries** with production-ready application examples
-
----
-
-## 🏗️ Technical Excellence
-
-**What We Deliver:**
-
-✅ **Production-Ready Systems** - Not just concepts, but implementable architectures  
-✅ **Formal Specifications** - Complete algorithms with time/space complexity analysis  
-✅ **Mathematical Rigor** - Control theory, information theory, graph algorithms  
-✅ **Regulatory Compliance** - Built for FDA SaMD, SEC, EU AI Act requirements  
-✅ **Complete Documentation** - Data structures, interfaces, integration guides  
-
-**Our Technical Approach:**
-- **Mathematical foundations** - Control theory, information theory, graph algorithms
-- **Formal methods** - Algorithms, data structures, interfaces with proofs
-- **Complexity analysis** - Time and space complexity for all algorithms
-- **Integration architecture** - How components work together seamlessly
-- **Real-world validation** - Tested in healthcare, finance, defense, legal domains
-
----
-
-## 🎯 Real-World Impact
-
-### **Healthcare AI**
-- Diagnostic AI with full explainability for FDA SaMD compliance
-- Bias detection for medical decision support systems
-- Complete audit trails for regulatory reporting
-- **Governance:** Autonomous monitoring with human review layer for regulatory compliance
-- Real-world impact: Enables safe deployment of AI in clinical settings
-
-### **Financial AI**
-- Algorithmic trading systems with regulatory compliance (SEC, FINRA)
-- Fairness metrics for credit scoring (ECOA compliance)
-- Real-time bias detection during inference
-- **Governance:** Fully autonomous monitoring with human oversight for compliance audits
-- Real-world impact: Prevents discriminatory lending and ensures regulatory compliance
-
-### **Military/Defense AI**
-- Autonomous systems with Rules of Engagement (ROE) validation
-- International Humanitarian Law (IHL) compliance mechanisms
-- **Governance:** Fully autonomous operation with human oversight layer for safety-critical decisions
-- Real-world impact: Enables safe deployment of AI in defense applications with autonomous governance
-
-### **Legal AI**
-- Explainable document analysis for legal compliance
-- Complete audit trails for legal decisions
-- Bias mitigation for legal AI systems
-- **Governance:** Autonomous analysis with human review for legal accountability
-- Real-world impact: Ensures fair legal outcomes and regulatory compliance
-
----
-
-## 🔬 Current Research & Development
-
-**Active Frameworks:**
-- **UNITARES v3.1+** - Unified framework for AI governance with thermodynamic principles
-- **HCK v3.0+** - Hybrid Continuity Kernel for adaptive control
-- **Production Systems** - Reference implementations in active development
-
-**What's Next:**
-- Enhanced multimodal validation capabilities
-- Advanced drift detection algorithms
-- Expanded regulatory compliance frameworks
-- Production deployments in regulated industries
-
----
-
-## 📄 License & Intellectual Property
-
-Patent applications - All rights reserved.  
-Technical specifications and documentation - See individual file headers.
-
----
-
-## 📁 Repository Structure
-
-```
-AI-Governance-Portfolio/
-├── README.md                          # This file
-├── profile/                           # Profile content
-│   └── README.md                      # Profile README
-├── ARCHITECTURE.md                    # Architecture documentation
-└── APPLICATIONS.md                    # Applications documentation
+# UNITARES returns state awareness
+{
+    "health_status": "moderate",
+    "coherence": 0.72,
+    "metrics": {"E": 0.68, "I": 0.81, "S": 0.19, "V": 0.02},
+    "next_action": "Good to proceed"
+}
 ```
 
+The agent sees its state. The agent decides what to do. No retraining required.
+
 ---
 
-**Last Updated:** December 2025  
-**Status:** Active Development - Building Trustworthy AI Systems
+## Key concepts
+
+- **EISV metrics** — Energy, Integrity, Entropy, Void. Derived from 4E cognition theory and biological homeostasis.
+- **Advisory, not enforcement** — Agents receive signals and are expected to act on them, but aren't hard-blocked.
+- **Knowledge Graph** — Agents persist discoveries with provenance tracking and semantic search.
+- **Zero training overhead** — Any tool-capable agent can use UNITARES immediately via MCP.
+
+---
+
+## Documentation
+
+- **[Architecture](ARCHITECTURE.md)** — Full technical details, EISV dynamics, system design
+- **[Research paper](https://github.com/CIRWEL)** — 4E cognition framework for AI agents (available on request)
+
+---
+
+## Status
+
+Working prototype with:
+- Full EISV dynamics engine
+- 50+ MCP governance tools
+- PostgreSQL + Apache AGE backend
+- Knowledge graph with semantic search
+
+In development:
+- Trust tiers for knowledge graph entries
+- Fleet-level health dashboards
+
+---
+
+## Contact
+
+**Kenny Wang / CIRWEL**
+
+Building runtime governance for the autonomous agent era.
+
+- GitHub: [@CIRWEL](https://github.com/CIRWEL)
+- Project: [governance-mcp-v1](https://github.com/CIRWEL/governance-mcp-v1) (private — available for review)
+
+---
+
+*"We're building mirrors for minds that might not have faces—but the mirror is still useful."*
