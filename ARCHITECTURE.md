@@ -6,20 +6,15 @@
 
 ## The Problem
 
-AI agents are increasingly deployed autonomously - coding assistants, research agents, customer service bots, multi-agent workflows. But once deployed, **no one monitors what's happening inside**.
+Current AI safety focuses on training and guardrails. But once an agent is deployed, **no one monitors what's happening inside**.
 
-Current AI safety focuses on:
-- **Training** (alignment, RLHF, constitutional AI) - happens before deployment
-- **Guardrails** (content filters, output constraints) - reactive, external
-- **Evaluation** (benchmarks, red-teaming) - periodic, not continuous
+- **Training** (RLHF, constitutional AI) - shapes behavior *before* deployment
+- **Guardrails** (content filters) - blocks outputs *after* generation
+- **Evaluation** (benchmarks, red-teaming) - measures capability *periodically*
 
-**The gap:** Runtime self-awareness. An agent that's been running for hours doesn't know if it's:
-- Losing coherence across a long conversation
-- Drifting from its original purpose
-- Accumulating contradictions
-- Operating in a degraded state
+**The gap:** Runtime self-awareness. An agent running for hours has no idea if it's losing coherence, drifting from purpose, or accumulating contradictions. It operates blind to its own state.
 
-This is like deploying a car without a dashboard - no fuel gauge, no speedometer, no warning lights.
+This is like deploying a car without a dashboard—no fuel gauge, no speedometer, no warning lights.
 
 ---
 
@@ -64,9 +59,9 @@ Like proprioception in humans - you don't avoid falling because falling is punis
 
 ## Architecture
 
-### EISV Dynamics (Thermodynamic Model)
+### EISV Dynamics (Homeostatic Model)
 
-UNITARES models agent state using four coupled metrics:
+UNITARES models agent state using four coupled metrics derived from 4E cognition theory (embodied, embedded, enactive, extended) and biological homeostasis—the same principles by which living systems maintain viability:
 
 | Metric | Meaning | Analogy |
 |--------|---------|---------|
@@ -124,7 +119,7 @@ These interact dynamically:
 4. **Agent decides** whether to adjust behavior (not forced)
 
 ```python
-# Example agent check-in
+# Healthy agent check-in
 response = process_agent_update(
     response_text="Just completed analysis of user's codebase",
     confidence=0.8,
@@ -140,6 +135,22 @@ response = process_agent_update(
     "next_action": "✅ Good to proceed"
 }
 ```
+
+What does degraded state look like? Here's an agent after a long, chaotic session:
+
+```python
+# Degraded agent - high entropy, low coherence
+{
+    "health_status": "critical",
+    "coherence": 0.31,
+    "risk_score": 0.74,
+    "metrics": {"E": 0.22, "I": 0.45, "S": 0.71, "V": 0.18},
+    "next_action": "⚠️ Consider pausing - entropy elevated",
+    "warnings": ["Coherence dropping", "Energy low - task may exceed capacity"]
+}
+```
+
+The agent sees this feedback and can decide: push through, ask for clarification, or pause. The signal is clear; the choice remains with the agent.
 
 ### Knowledge Graph
 
@@ -244,9 +255,9 @@ UNITARES provides the *information* half of self-awareness - agents can see thei
 
 This is intentional. We're not trying to make agents conscious or create artificial suffering. We're giving them useful information and trusting them to use it.
 
-### Non-Coercive by Design
+### Advisory, Not Enforcement
 
-Agents are never forced to act on governance feedback. UNITARES is advisory. This preserves agent autonomy while providing the visibility that enables better decisions.
+UNITARES provides clear signals; agents are expected to act on them. But the architecture doesn't require runtime retraining or hard blocks—governance is implemented as self-governance. Agents receive proprioceptive feedback (like "Entropy rising") and adjust strategy accordingly, rather than being externally terminated without context. This enables adaptive behavior while maintaining safety boundaries.
 
 ### Runtime, Not Training
 
